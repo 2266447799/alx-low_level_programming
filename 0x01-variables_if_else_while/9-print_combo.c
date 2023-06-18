@@ -8,15 +8,14 @@
 
 int main(void)
 {
-	char ch;
+	int i = 0;
 
-	for (ch = 'a'; ch <= 'z';)
+	while (i <= 9)
 	{
-		if (ch != 'q' && ch != 'e')
-		{
-			putchar(ch);
-		}
-		(ch++);
+		putchar(i + '0');
+		putchar(',');
+		putchar(' ');
+		(i++);
 	}
 	putchar('\n');
 
