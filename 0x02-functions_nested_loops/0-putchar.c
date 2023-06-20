@@ -1,4 +1,5 @@
 #include <unistd.h>
+#include "putc.h"
 
 /**
  * _putchar - writes the character p to stdout
