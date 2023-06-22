@@ -23,7 +23,7 @@ int main(void)
 		while (x % i == 0)
 		{
 			pf = 1;
-			x = x / 1;
+			x = x / i;
 		}
 	}
 	if (x > 2)
