@@ -6,11 +6,6 @@
 #include <string.h>
 
 /**
- * Description: This header file contains all function protypes
- * and structures used by the program.
- */
-
-/**
  * struct op - is struct op
  * @op: The operator
  * @f: The function associated
